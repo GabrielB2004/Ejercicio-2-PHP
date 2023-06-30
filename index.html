@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio de sesion</title>
+    </head>
+    <body>
+        <h1><center>Inmobiliaria Punta de Mata</center></h1>
+        <hr>
+        <br>
+        <h2>Registre los datos de la casa:</h2>
+        <table>
+            <tr>
+                <th>
+                    <form method="post" action="consul.php">
+                        <label for="numero_casas">num de la casa: </label>
+                        <input type="text" name= "numero_casas" id="numero_casas" require>
+                        <br>
+                        <label for="color">color: </label>
+                        <input type="text" name= "color" id="color" require>
+                        <br>
+                        <label for="precio">precio:</label>
+                        <input type="number" name= "precio" id="precio" require>
+                        <br>
+                        <label for="dimensiones">dimensiones</label>
+                        <input type="number" name= "dimensiones" id="dimensiones" require>
+                        <br>
+                        <label for="habitaciones">num de habitaciones</label>
+                        <input type="number" name= "habitaciones" id="habitaciones" require>
+                        <br>
+                        <label for="direccion">direccion</label>
+                        <input type="text" name="direccion" id="direccion" require>
+                        <br>
+                        <button type="submit">Guardar datos</button>
+                        <br>
+                        <a href="lista.html">buscar un producto</a>
+                    </form>
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
